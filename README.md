@@ -1,5 +1,7 @@
 # Object-Oriented Programming Labs (C++)
 
+![CI](https://github.com/Dezerdvs/oop-labs-cpp/actions/workflows/ci.yml/badge.svg)
+
 A progression of C++ labs covering core OOP concepts, from basic classes to templates and multithreading. Built for a university OOP course.
 
 ## What's inside
