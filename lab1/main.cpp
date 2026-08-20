@@ -1,5 +1,6 @@
 #include <iostream>
 #include "KeyboardTrainer.h"
+#define NOMINMAX
 #include "windows.h"
 using namespace std;
 

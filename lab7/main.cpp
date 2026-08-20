@@ -3,6 +3,8 @@
 #include <string>
 #include <random>
 #include <memory>
+#include <vector>
+#define NOMINMAX
 #include <windows.h>
 
 using namespace std;
@@ -276,7 +278,7 @@ int main() {
     uniform_int_distribution<int> patient_dis(25, 75);  //Діст пацієнтів
 
     int N_patients = patient_dis(gen);
-    shared_ptr<Patient> Patients[N_patients];
+    vector<shared_ptr<Patient>> Patients(N_patients);
     for (int i = 0; i < N_patients; i++) {
         Patients[i] = make_shared<Patient>(); //Згенеруванли пацієнтів
     }
